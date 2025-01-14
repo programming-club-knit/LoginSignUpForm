@@ -1,0 +1,178 @@
+Frontend Issues for the Login and Signup Form
+Add Password Strength Validation
+
+Currently, the signup form doesn’t validate the strength of the password. Add validation to ensure the password meets certain criteria (e.g., minimum length, special characters, numbers).
+
+Expected Behavior:
+
+Display a message if the password is weak.
+
+Prevent form submission if the password doesn’t meet the requirements.
+
+Hint: Use JavaScript to check the password against a regex pattern.
+
+Add Input Validation for Email
+
+The signup form doesn’t validate the email input. Add validation to ensure the email is in the correct format.
+
+Expected Behavior:
+
+Display an error message if the email is invalid.
+
+Prevent form submission if the email is invalid.
+
+Hint: Use JavaScript and regex to validate the email.
+
+Add a "Show Password" Toggle
+
+Add a toggle button to show/hide the password text in both the login and signup forms.
+
+Expected Behavior:
+
+When clicked, the password text should be visible.
+
+When clicked again, the password text should be hidden.
+
+Hint: Use JavaScript to toggle the type attribute of the password input between password and text.
+
+Improve Form Animations
+
+The current animation between the login and signup forms is basic. Improve the animation to make it smoother and more visually appealing.
+
+Expected Behavior:
+
+Add a sliding or fading effect when toggling between forms.
+
+Ensure the animation is smooth and doesn’t feel abrupt.
+
+Hint: Use CSS transitions or animations.
+
+Add a Loading Spinner on Form Submission
+
+When the user submits the login or signup form, there’s no visual feedback. Add a loading spinner to indicate that the form is being processed.
+
+Expected Behavior:
+
+Display a loading spinner when the form is submitted.
+
+Hide the spinner after a few seconds (simulate a backend response).
+
+Hint: Use CSS to create a spinner and JavaScript to show/hide it.
+
+Add a "Forgot Password" Link
+
+Add a "Forgot Password" link to the login form. When clicked, display a modal or redirect to a new page for password recovery.
+
+Expected Behavior:
+
+Clicking the link should display a modal or redirect to a new page.
+
+The modal/page should include a form to enter the email for password recovery.
+
+Hint: Use JavaScript to handle the modal or redirect.
+
+Add Accessibility Features
+
+The form lacks accessibility features like keyboard navigation and ARIA labels. Improve accessibility for screen readers and keyboard users.
+
+Expected Behavior:
+
+Add ARIA labels to form inputs and buttons.
+
+Ensure the form can be navigated using the keyboard (e.g., Tab key).
+
+Hint: Use aria-label and tabindex attributes.
+
+Add a Dark Mode Toggle
+
+Add a toggle button to switch between light and dark modes.
+
+Expected Behavior:
+
+Clicking the toggle should switch the theme of the form.
+
+The selected theme should persist across page reloads.
+
+Hint: Use JavaScript to toggle a CSS class and localStorage to save the theme preference.
+
+Add a "Remember Me" Checkbox
+
+Add a "Remember Me" checkbox to the login form. When checked, the username should be saved in localStorage and auto-filled the next time the user visits the page.
+
+Expected Behavior:
+
+If "Remember Me" is checked, save the username in localStorage.
+
+Auto-fill the username on page load if it exists in localStorage.
+
+Hint: Use localStorage to save and retrieve the username.
+
+Add a Success Message After Form Submission
+
+After submitting the login or signup form, display a success message to the user.
+
+Expected Behavior:
+
+Display a success message (e.g., "Login successful!" or "Signup successful!") after form submission.
+
+The message should disappear after a few seconds.
+
+Hint: Use JavaScript to display and hide the message.
+
+Add a "Terms and Conditions" Checkbox
+
+Add a checkbox to the signup form that requires users to agree to the terms and conditions before submitting the form.
+
+Expected Behavior:
+
+Prevent form submission if the checkbox is not checked.
+
+Display an error message if the checkbox is not checked.
+
+Hint: Use JavaScript to validate the checkbox.
+
+Add a "Reset Form" Button
+
+Add a "Reset Form" button to clear all input fields in the login and signup forms.
+
+Expected Behavior:
+
+Clicking the button should clear all input fields.
+
+The form should return to its initial state.
+
+Hint: Use JavaScript to reset the form.
+
+Add a "Close" Button for the Signup Form
+
+Add a "Close" button to the signup form to allow users to return to the login form without submitting.
+
+Expected Behavior:
+
+Clicking the button should toggle back to the login form.
+
+Hint: Use JavaScript to toggle the form visibility.
+
+Add a "Password Match" Indicator
+
+Add a visual indicator to show whether the password and confirm password fields match in the signup form.
+
+Expected Behavior:
+
+Display a green checkmark if the passwords match.
+
+Display a red cross if the passwords don’t match.
+
+Hint: Use JavaScript to compare the password fields and update the UI.
+
+Add a "Max Length" Validation for Input Fields
+
+Add validation to ensure the username and password fields don’t exceed a certain length.
+
+Expected Behavior:
+
+Display an error message if the input exceeds the maximum length.
+
+Prevent form submission if the input exceeds the maximum length.
+
+Hint: Use JavaScript to check the length of the input fields.
