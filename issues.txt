@@ -11,19 +11,7 @@ Prevent form submission if the password doesn’t meet the requirements.
 
 Hint: Use JavaScript to check the password against a regex pattern.
 
-2. Add Input Validation for Email
-
-The signup form doesn’t validate the email input. Add validation to ensure the email is in the correct format.
-
-Expected Behavior:
-
-Display an error message if the email is invalid.
-
-Prevent form submission if the email is invalid.
-
-Hint: Use JavaScript and regex to validate the email.
-
-3. Add a "Show Password" Toggle
+2. Add a "Show Password" Toggle
 
 Add a toggle button to show/hide the password text in both the login and signup forms.
 
@@ -35,7 +23,7 @@ When clicked again, the password text should be hidden.
 
 Hint: Use JavaScript to toggle the type attribute of the password input between password and text.
 
-4. Improve Form Animations
+3. Improve Form Animations
 
 The current animation between the login and signup forms is basic. Improve the animation to make it smoother and more visually appealing.
 
