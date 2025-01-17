@@ -17,7 +17,7 @@ A sleek and modern **Login/Signup Form** built with **HTML, CSS, and JavaScript*
 
 4. ### Navigate to the Project Directory:
 
-       cd LoginSignUpForm/index.html
+       cd LoginSignUpForm
        
 
 6. ### Open Live Server:
