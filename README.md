@@ -15,19 +15,25 @@ A sleek and modern **Login/Signup Form** built with **HTML, CSS, and JavaScript*
       `git clone https://github.com/your-username/LoginSignUpForm.git`
    
 
-4. ### Navigate to the Project Directory:
 
-       cd LoginSignUpForm
+3. ### Create a new branch
+
+        git branch issue/issuename
+
+4. ### Switch to new branch
+        git checkout branchname
+
+
        
 
-6. ### Open Live Server:
+5. ### Open Live Server:
 
    
 
-7. ### Your Application will be started
+6. ### Your Application will be started
 
 
-8. ### Start Contributing:
+7. ### Start Contributing:
 
  - Check out the [CONTRIBUTING.md](https://github.com/programming-club-knit/LoginSignUpForm/blob/main/CONTRIBUTING.md)
 
