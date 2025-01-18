@@ -30,3 +30,8 @@ document.getElementById("signup-form").addEventListener("submit", (e) => {
     }
     alert("Signup successful!");
 });
+
+document.getElementById("reset-button").addEventListener("click", (e) => {
+    const form = document.getElementById("signup-form");
+    form.reset(); 
+});
