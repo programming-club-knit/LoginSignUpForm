@@ -23,7 +23,12 @@ document.getElementById("signup-form").addEventListener("submit", (e) => {
     e.preventDefault();
     const password = e.target.querySelector('input[type="password"]').value;
     const confirmPassword = e.target.querySelectorAll('input[type="password"]')[1].value;
-
+    let emailValid=e.target.email.value.split("@");
+    if(emailValid[1] !== "gmail.com" && emailValid[1] !=="yahoo.com" && emailValid[1] !== "outlook.com")
+    {
+        alert("Invalid Email address, Please Enter correct address");
+        return;
+    }
     if (password !== confirmPassword) {
         alert("Passwords do not match!");
         return;
